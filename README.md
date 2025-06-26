@@ -1,16 +1,4 @@
-Of course. Let's build a more comprehensive, structured, and enticing README. This version will dive deeper into the project's philosophy, explain the AI mechanics in an accessible way, and give users a clear guide on how to experiment and what to look for.
-
-Here is the new, improved README.
-
------
-
 # NeuroRacer: An Experiment in Emergent Intelligence
-
-\<div align="center"\>
-
-*Recommendation: Record a GIF of a late-generation race and replace the link above. Show the info panel and sensor lines for maximum effect\!*
-
-\</div\>
 
 **NeuroRacer is not just a game; it's a digital petri dish for evolution.** It's a simulation where you, the observer, get to watch intelligent behavior emerge from the simple, foundational principles of evolution and neuroscience. Starting with a population of cars that can only drive randomly, this project uses a Genetic Algorithm to evolve their Artificial Neural Network "brains," generation by generation, until they become masterful, efficient racers.
 
