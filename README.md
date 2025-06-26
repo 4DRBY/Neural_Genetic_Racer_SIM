@@ -101,13 +101,7 @@ You will need Python 3.x and the packages listed in `requirements.txt`.
     git clone https://github.com/your-username/NeuroRacer.git
     cd NeuroRacer
     ```
-2.  Create a `requirements.txt` file with the following content:
-    ```
-    pygame
-    numpy
-    matplotlib
-    ```
-3.  Install the required packages using pip:
+2.  Install the required packages using pip:
     ```bash
     pip install -r requirements.txt
     ```
