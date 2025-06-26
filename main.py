@@ -522,7 +522,7 @@ def display_texts(display, alive, top_5_lap_times, population_size, show_car_num
     texts = [
         f'Generation: {generation}',
         f'Alive: {alive}/{population_size}',
-        'L - Lines',
+        'L - Sensor Lines',
         'A - Player',
         'D - Info',
         'N - Start Next Gen',
@@ -1296,7 +1296,7 @@ def display_texts(display, alive, top_5_lap_times, population_size, show_car_num
         f'Z/X Adjust Laps: {lap_count_next_gen}',
         f'S - Car Number: {"On" if show_car_number else "Off"}',
         f'T - Auto Next Gen: {auto_gen_status}',
-        '1-9: Adjust Pop (10-90)'
+        '1-9: Adjust Pop (10-5000)'
     ]
     
     # Display the game information and store the areas that need updating
@@ -1607,21 +1607,21 @@ def main():
                     elif event.key == pygame.K_1:
                         population_size = 10
                     elif event.key == pygame.K_2:
-                        population_size = 50
+                        population_size = 25
                     elif event.key == pygame.K_3:
-                        population_size = 100
+                        population_size = 50
                     elif event.key == pygame.K_4:
-                        population_size = 200
+                        population_size = 100
                     elif event.key == pygame.K_5:
-                        population_size = 500
+                        population_size = 200
                     elif event.key == pygame.K_6:
-                        population_size = 750
+                        population_size = 500
                     elif event.key == pygame.K_7:
-                        population_size = 1000
+                        population_size = 750
                     elif event.key == pygame.K_8:
-                        population_size = 1500
+                        population_size = 1000
                     elif event.key == pygame.K_9:
-                        population_size = 5000
+                        population_size = 2500
                     elif event.key == pygame.K_a:
                         if player_car:
                             player_car = None
