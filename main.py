@@ -10,8 +10,16 @@ import io
 pygame.init()
 
 # Window size and frame rate
-size = width, height = 800, 600
+SCREEN_WIDTH, SCREEN_HEIGHT = 800, 600 # Initial screen size
+LOGICAL_WIDTH, LOGICAL_HEIGHT = 800, 600 # Fixed game world size
+size = width, height = SCREEN_WIDTH, SCREEN_HEIGHT # Current screen size
 FPS = 120
+RESIZABLE_WINDOW = True
+
+# Scaling and offset variables
+game_surface_scale = 1.0
+game_surface_offset = (0, 0)
+game_surface = pygame.Surface((LOGICAL_WIDTH, LOGICAL_HEIGHT))
 
 # Colors
 WHITE = (255, 255, 255)
